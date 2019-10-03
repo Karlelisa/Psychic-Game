@@ -1,0 +1,56 @@
+
+/*  body { 
+
+   background-image: url("../images/squares.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+    
+}  */
+
+
+
+.topCard {
+    
+    border: 2px solid black;
+    background-color: black;
+    top: 0px;
+    padding-top: 100px;
+} 
+
+
+
+body {
+    background-color: black;
+}
+
+.col-md-8 {
+    background-color: black;
+   
+}
+
+.boxed {
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    padding-bottom: 600px;
+
+}
+
+/* 
+.fixed-bottom {
+    background-color: black;
+} */
+
+
+/* .card-footer {
+    background-image: url("../images/small-smoke.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+} */
