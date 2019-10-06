@@ -33,9 +33,7 @@ document.onkeyup = function (event) {
 
     if (userGuess === computerChoice) {
         wins++;
-        const congrats = document.getElementById("youWon");
-        congrats.textContent = 'Congrats! You guessed right!';
-        congrats.style.backgroundColor = 'blue';
+        alert('Oh lucky you... You guessed right! You WIN!!');
         resetGame();
 
 
@@ -44,15 +42,13 @@ document.onkeyup = function (event) {
         losses++;
         guessRemaining--;
         answerArray.push(userGuess);
-
-
     }
 
-    //When the player's guessRemaining reaches 10 then player looses and it is game over. The player has 10 times to guess the right letter.
+    //The player has 10 times to guess the right letter. When the player's guessRemaining reaches 10 then player looses and it is game over. 
 
     if (guessRemaining === 0) {
         console.log('no more guesses')
-        document.getElementById("gameisOver").innerHTML = "!!!GAME OVER, YOU LOST!!!";
+        alert("!!!GAME OVER, YOU LOST!!!");
         resetGame();
     }
 
@@ -75,6 +71,7 @@ document.onkeyup = function (event) {
        left. */
     let html =
         "<h1>Guess What Letter I'm Thinking of.....</h1>" +
+        "<h4> You only have 10 tries to guess my letter...Good Luck...</h4>" +
         "<h4>Press any letter to start guessing!</h4>" +
         "<h5>Wins: " + wins + "</h5>" +
         "<h5>Losses: " + losses + "</h5>" +
@@ -83,6 +80,10 @@ document.onkeyup = function (event) {
 
 
     document.querySelector('#game').innerHTML = html;
+
+
+
+
 }
 
 
