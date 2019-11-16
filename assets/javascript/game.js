@@ -13,7 +13,7 @@ let answerArray = [];
 //The user makes a choice with the onkeyup function.
 document.onkeyup = function (event) {
     let userGuess = String.fromCharCode(event.keyCode).
-        toLowerCase();
+    toLowerCase();
 
     console.log(userGuess);
     // console.log(event.keyCode);
@@ -34,7 +34,7 @@ document.onkeyup = function (event) {
     if (userGuess === computerChoice) {
         wins++;
         alert('Oh lucky you... You guessed right! You WIN!!');
-        resetGame();
+        reset();
 
 
 
@@ -53,6 +53,11 @@ document.onkeyup = function (event) {
     }
 
 
+    function reset() {
+        losses = 0;
+        guessRemaining = 10;
+        answerArray = [];
+    }
 
 
     // This resets the game after the player wins or looses.
@@ -85,6 +90,3 @@ document.onkeyup = function (event) {
 
 
 }
-
-
-
