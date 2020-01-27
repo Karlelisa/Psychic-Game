@@ -33,6 +33,7 @@ HTML, CSS, Bootstrap, JavaScript
 
 ### GitHub Published Link
 Click on the below link to play.
+
 https://karlelisa.github.io/Psychic-Game/
 
 
