@@ -30,5 +30,11 @@ When the player loses, increase the Losses counter and restart the game without 
 ### Built With
 HTML, CSS, Bootstrap, JavaScript
 
+
+### GitHub Published Link
+Click on the below link to play.
+https://karlelisa.github.io/Psychic-Game/
+
+
 ### Game Screenshot
 ![My Pyschic Game Cover Page](/assets/images/my-pyschic-game-cover-page.png) 
