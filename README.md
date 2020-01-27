@@ -24,4 +24,4 @@ When the player loses, increase the Losses counter and restart the game without 
 
 
 
-![My Pyschic Game Cover Page](/images/my-pyschic-game-cover-page.png) 
+![My Pyschic Game Cover Page](/assets/images/my-pyschic-game-cover-page.png) 
